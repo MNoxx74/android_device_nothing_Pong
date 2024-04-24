@@ -14,6 +14,10 @@ $(call inherit-product, device/nothing/Pong/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+SAKURA_MAINTAINER := MNoxx74
+SAKURA_OFFICIAL := true
+SAKURA_BUILD_TYPE := gapps
+
 PRODUCT_NAME := lineage_Pong
 PRODUCT_DEVICE := Pong
 PRODUCT_MANUFACTURER := nothing
