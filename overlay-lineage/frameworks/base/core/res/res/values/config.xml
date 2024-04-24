@@ -6,6 +6,9 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">false</bool>
 
+    <!-- Whether to enable Lineage Health Service -->
+    <bool name="config_lineageHealthSupported">true</bool>
+
     <array name="config_autoBrightnessDisplayValuesNits">
         <item>10</item>             <!--  0 - 1 -->
         <item>20</item>             <!--  1 - 2 -->
