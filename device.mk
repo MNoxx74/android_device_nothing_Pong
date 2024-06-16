@@ -362,7 +362,8 @@ PRODUCT_PACKAGES += \
     NTSettingsProviderResTarget \
     NTSettingsResTarget \
     NTSystemUIResTarget \
-    NTWifiResTarget
+    NTWifiResTarget \
+    PongNfc
 
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
